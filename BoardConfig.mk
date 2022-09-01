@@ -28,10 +28,11 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG := lavender-perf_defconfig
+TARGET_KERNEL_CONFIG := lavender_defconfig
+TARGET_KERNEL_VERSION := 4.19
 
 # Manifest
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
+#DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3640619008

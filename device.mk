@@ -8,7 +8,7 @@
 $(call inherit-product, device/xiaomi/sdm660-common/sdm660.mk)
 
 # lawnchair
-$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
+#$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 
 DEVICE_PATH := device/xiaomi/lavender
 
